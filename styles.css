@@ -1,0 +1,29 @@
+body{
+  background: linear-gradient(to right, pink, orange);
+}
+
+.header{
+  margin-top: 52px;
+}
+
+.crop-img{
+  width: 250px;
+  margin-bottom: 12px;
+  border-radius: 12px;
+  transition: all ease 0.4s;
+}
+
+.crop-img:hover{
+  cursor: pointer;
+  opacity: 0.6;
+
+}
+
+.large-img{
+  margin-top: 10px;
+  border-radius: 12px;
+  background-size: cover;
+  width: 1128px;
+  height: 100%;
+  margin-bottom: 120px;
+}
